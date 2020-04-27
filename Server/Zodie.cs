@@ -42,7 +42,7 @@ namespace Server
 
         public ListaZodii()
         {
-            System.IO.StreamReader fileReader = new System.IO.StreamReader("C:/Users/DANY99SR/Desktop/Tema2/Zodii.txt");
+            System.IO.StreamReader fileReader = new System.IO.StreamReader("Zodii.txt");
             for (int luna = 0; luna < 12; luna++)
             {
                 String line = fileReader.ReadLine();
