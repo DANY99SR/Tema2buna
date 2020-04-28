@@ -26,7 +26,7 @@ namespace Client
                     
                     if (luna == 2)
                     {
-                        if (an % 4 != 0 && zi > 28)
+                        if (an % 4 == 0 && zi > 28 && an %400==0 && an%100!=0)
                             return false;
                     }
                     
